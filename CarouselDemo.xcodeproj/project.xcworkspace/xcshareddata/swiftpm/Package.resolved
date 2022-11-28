@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "carousel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/serhiybutz/Carousel.git",
+      "state" : {
+        "revision" : "f6af6661c32c0f008653cb0a3754fda58512d62e",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
