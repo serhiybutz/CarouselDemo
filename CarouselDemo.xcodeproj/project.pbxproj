@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4020F22F29344BC200F222AD /* KungsledenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F22E29344BC200F222AD /* KungsledenViewModel.swift */; };
+		4020F23029344BC200F222AD /* KungsledenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F22E29344BC200F222AD /* KungsledenViewModel.swift */; };
+		4020F23229344C3200F222AD /* Conf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23129344C3200F222AD /* Conf.swift */; };
+		4020F23329344C3200F222AD /* Conf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23129344C3200F222AD /* Conf.swift */; };
+		4020F23529344D0700F222AD /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23429344D0700F222AD /* PhotoRepository.swift */; };
+		4020F23629344D0700F222AD /* PhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23429344D0700F222AD /* PhotoRepository.swift */; };
+		4020F23829344D2D00F222AD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23729344D2D00F222AD /* Card.swift */; };
+		4020F23929344D2D00F222AD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23729344D2D00F222AD /* Card.swift */; };
+		4020F23B29344D4E00F222AD /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23A29344D4E00F222AD /* Types.swift */; };
+		4020F23C29344D4E00F222AD /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23A29344D4E00F222AD /* Types.swift */; };
+		4020F24029344E5D00F222AD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23F29344E5D00F222AD /* CardView.swift */; };
+		4020F24129344E5D00F222AD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F23F29344E5D00F222AD /* CardView.swift */; };
+		4020F24329344F8C00F222AD /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F24229344F8C00F222AD /* CardTitleView.swift */; };
+		4020F24429344F8C00F222AD /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F24229344F8C00F222AD /* CardTitleView.swift */; };
+		4020F24729344FDC00F222AD /* Image Resizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F24629344FDC00F222AD /* Image Resizing.swift */; };
+		4020F24829344FDC00F222AD /* Image Resizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F24629344FDC00F222AD /* Image Resizing.swift */; };
+		4046ED7A28AA1B2400A63124 /* Carousel_MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046ED7928AA1B2400A63124 /* Carousel_MacOSApp.swift */; };
+		4046ED7C28AA1B2400A63124 /* KungsledenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046ED7B28AA1B2400A63124 /* KungsledenView.swift */; };
+		4046ED8128AA1B2600A63124 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4046ED8028AA1B2600A63124 /* Preview Assets.xcassets */; };
+		4084D09F2929E7F7006A6DFA /* Carousel_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084D09E2929E7F7006A6DFA /* Carousel_iOSApp.swift */; };
+		4084D0A32929E7F9006A6DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4084D0A22929E7F9006A6DFA /* Assets.xcassets */; };
+		4084D0A62929E7F9006A6DFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4084D0A52929E7F9006A6DFA /* Preview Assets.xcassets */; };
+		4084D0E7292A806E006A6DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4084D0A22929E7F9006A6DFA /* Assets.xcassets */; };
+		4084D134292C2EF9006A6DFA /* KungsledenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046ED7B28AA1B2400A63124 /* KungsledenView.swift */; };
+		409485D929FEF50C0047CEE5 /* EnvironmentValues+windowSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409485D829FEF50C0047CEE5 /* EnvironmentValues+windowSize.swift */; };
+		409485DA29FEF50C0047CEE5 /* EnvironmentValues+windowSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409485D829FEF50C0047CEE5 /* EnvironmentValues+windowSize.swift */; };
+		409485DC29FEF53F0047CEE5 /* SizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409485DB29FEF53F0047CEE5 /* SizePreferenceKey.swift */; };
+		409485DD29FEF53F0047CEE5 /* SizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409485DB29FEF53F0047CEE5 /* SizePreferenceKey.swift */; };
+		409485DF29FF1CC10047CEE5 /* CloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409485DE29FF1CC10047CEE5 /* CloseButtonView.swift */; };
+		409485E029FF1CC10047CEE5 /* CloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409485DE29FF1CC10047CEE5 /* CloseButtonView.swift */; };
+		409485E329FF2A820047CEE5 /* Carousel in Frameworks */ = {isa = PBXBuildFile; productRef = 409485E229FF2A820047CEE5 /* Carousel */; };
+		409485E629FF2A960047CEE5 /* Carousel in Frameworks */ = {isa = PBXBuildFile; productRef = 409485E529FF2A960047CEE5 /* Carousel */; };
+		40AF0E8429FB03D10022C432 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0E8329FB03D10022C432 /* ModalView.swift */; };
+		40AF0E8529FB03D10022C432 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0E8329FB03D10022C432 /* ModalView.swift */; };
+		40AF0E8729FB04740022C432 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0E8629FB04740022C432 /* BlurView.swift */; };
+		40AF0E8829FB04740022C432 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0E8629FB04740022C432 /* BlurView.swift */; };
+		40AF0E8A29FB049B0022C432 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0E8929FB049B0022C432 /* StarView.swift */; };
+		40AF0E8B29FB049B0022C432 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0E8929FB049B0022C432 /* StarView.swift */; };
+		40AF0ECD29FDA4140022C432 /* ShapeGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ECC29FDA4140022C432 /* ShapeGeo.swift */; };
+		40AF0ECE29FDA4140022C432 /* ShapeGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ECC29FDA4140022C432 /* ShapeGeo.swift */; };
+		40AF0ED029FDA5440022C432 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ECF29FDA5440022C432 /* Shapes.swift */; };
+		40AF0ED129FDA5440022C432 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ECF29FDA5440022C432 /* Shapes.swift */; };
+		40AF0ED329FDBB960022C432 /* FavoriteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ED229FDBB960022C432 /* FavoriteCardView.swift */; };
+		40AF0ED429FDBB960022C432 /* FavoriteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ED229FDBB960022C432 /* FavoriteCardView.swift */; };
+		40AF0ED629FDFD0C0022C432 /* ModalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ED529FDFD0C0022C432 /* ModalViewModel.swift */; };
+		40AF0ED729FDFD0C0022C432 /* ModalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ED529FDFD0C0022C432 /* ModalViewModel.swift */; };
+		40AF0ED929FE0ECC0022C432 /* ModalTransitionParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ED829FE0ECC0022C432 /* ModalTransitionParams.swift */; };
+		40AF0EDA29FE0ECC0022C432 /* ModalTransitionParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0ED829FE0ECC0022C432 /* ModalTransitionParams.swift */; };
+		40AF0EDD29FE24A40022C432 /* CarouselModalTransitionParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0EDC29FE24A40022C432 /* CarouselModalTransitionParams.swift */; };
+		40AF0EDE29FE24A40022C432 /* CarouselModalTransitionParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0EDC29FE24A40022C432 /* CarouselModalTransitionParams.swift */; };
+		40AF0EE029FE24BB0022C432 /* FavoritesModalTransitionParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0EDF29FE24BB0022C432 /* FavoritesModalTransitionParams.swift */; };
+		40AF0EE129FE24BB0022C432 /* FavoritesModalTransitionParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF0EDF29FE24BB0022C432 /* FavoritesModalTransitionParams.swift */; };
+		40B9460B29FADD7F00336F17 /* CGSize+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9460A29FADD7F00336F17 /* CGSize+.swift */; };
+		40B9460C29FADD7F00336F17 /* CGSize+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9460A29FADD7F00336F17 /* CGSize+.swift */; };
+		40B9460E29FADD9F00336F17 /* WaitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9460D29FADD9F00336F17 /* WaitAnimation.swift */; };
+		40B9460F29FADD9F00336F17 /* WaitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9460D29FADD9F00336F17 /* WaitAnimation.swift */; };
+		40B9461229FAE47300336F17 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9461129FAE47300336F17 /* FavoritesViewModel.swift */; };
+		40B9461329FAE47400336F17 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9461129FAE47300336F17 /* FavoritesViewModel.swift */; };
+		40B9461529FAE50B00336F17 /* Task+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9461429FAE50B00336F17 /* Task+.swift */; };
+		40B9461629FAE50B00336F17 /* Task+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9461429FAE50B00336F17 /* Task+.swift */; };
+		40B9461829FAE83200336F17 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9461729FAE83200336F17 /* TitleView.swift */; };
+		40B9461929FAE83200336F17 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9461729FAE83200336F17 /* TitleView.swift */; };
+		40B9461B29FAE93600336F17 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9461A29FAE93600336F17 /* FavoritesView.swift */; };
+		40B9461C29FAE93600336F17 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9461A29FAE93600336F17 /* FavoritesView.swift */; };
+		40E6EB5C29DC8816009737A3 /* Carousel-MacOS.app in Resources */ = {isa = PBXBuildFile; fileRef = 4046ED7628AA1B2400A63124 /* Carousel-MacOS.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40E6EB5D29DC8816009737A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4046ED6E28AA1B2400A63124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4046ED7528AA1B2400A63124;
+			remoteInfo = "Carousel-MacOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4084D0E0292A74E9006A6DFA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4020F22E29344BC200F222AD /* KungsledenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KungsledenViewModel.swift; sourceTree = "<group>"; };
+		4020F23129344C3200F222AD /* Conf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conf.swift; sourceTree = "<group>"; };
+		4020F23429344D0700F222AD /* PhotoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRepository.swift; sourceTree = "<group>"; };
+		4020F23729344D2D00F222AD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = ../Card.swift; sourceTree = "<group>"; };
+		4020F23A29344D4E00F222AD /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		4020F23F29344E5D00F222AD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4020F24229344F8C00F222AD /* CardTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTitleView.swift; sourceTree = "<group>"; };
+		4020F24629344FDC00F222AD /* Image Resizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image Resizing.swift"; sourceTree = "<group>"; };
+		4046ED7628AA1B2400A63124 /* Carousel-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carousel-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4046ED7928AA1B2400A63124 /* Carousel_MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_MacOSApp.swift; sourceTree = "<group>"; };
+		4046ED7B28AA1B2400A63124 /* KungsledenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KungsledenView.swift; sourceTree = "<group>"; };
+		4046ED8028AA1B2600A63124 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4046ED8228AA1B2600A63124 /* Carousel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Carousel.entitlements; sourceTree = "<group>"; };
+		4084D09C2929E7F7006A6DFA /* Carousel-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carousel-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4084D09E2929E7F7006A6DFA /* Carousel_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_iOSApp.swift; sourceTree = "<group>"; };
+		4084D0A22929E7F9006A6DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4084D0A52929E7F9006A6DFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		409485D829FEF50C0047CEE5 /* EnvironmentValues+windowSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+windowSize.swift"; sourceTree = "<group>"; };
+		409485DB29FEF53F0047CEE5 /* SizePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceKey.swift; sourceTree = "<group>"; };
+		409485DE29FF1CC10047CEE5 /* CloseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButtonView.swift; sourceTree = "<group>"; };
+		409485E429FF2A8C0047CEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40AF0E8329FB03D10022C432 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		40AF0E8629FB04740022C432 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		40AF0E8929FB049B0022C432 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		40AF0ECC29FDA4140022C432 /* ShapeGeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeGeo.swift; sourceTree = "<group>"; };
+		40AF0ECF29FDA5440022C432 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		40AF0ED229FDBB960022C432 /* FavoriteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCardView.swift; sourceTree = "<group>"; };
+		40AF0ED529FDFD0C0022C432 /* ModalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewModel.swift; sourceTree = "<group>"; };
+		40AF0ED829FE0ECC0022C432 /* ModalTransitionParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransitionParams.swift; sourceTree = "<group>"; };
+		40AF0EDC29FE24A40022C432 /* CarouselModalTransitionParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModalTransitionParams.swift; sourceTree = "<group>"; };
+		40AF0EDF29FE24BB0022C432 /* FavoritesModalTransitionParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesModalTransitionParams.swift; sourceTree = "<group>"; };
+		40B9460A29FADD7F00336F17 /* CGSize+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+.swift"; sourceTree = "<group>"; };
+		40B9460D29FADD9F00336F17 /* WaitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitAnimation.swift; sourceTree = "<group>"; };
+		40B9461129FAE47300336F17 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		40B9461429FAE50B00336F17 /* Task+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+.swift"; sourceTree = "<group>"; };
+		40B9461729FAE83200336F17 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		40B9461A29FAE93600336F17 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4046ED7328AA1B2400A63124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409485E329FF2A820047CEE5 /* Carousel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4084D0992929E7F7006A6DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409485E629FF2A960047CEE5 /* Carousel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4020F23D29344D7500F222AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4020F23429344D0700F222AD /* PhotoRepository.swift */,
+				4020F23729344D2D00F222AD /* Card.swift */,
+				40AF0ECC29FDA4140022C432 /* ShapeGeo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4020F23E29344DE900F222AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40D5B4A429345B6F009D43A2 /* KungsledenView */,
+				40B9461029FAE46200336F17 /* FavoritesView */,
+				40D5B4A329345B57009D43A2 /* CardView */,
+				40B9461729FAE83200336F17 /* TitleView.swift */,
+				40AF0E8629FB04740022C432 /* BlurView.swift */,
+				40AF0E8929FB049B0022C432 /* StarView.swift */,
+				409485DE29FF1CC10047CEE5 /* CloseButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4020F24529344FC900F222AD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4020F23A29344D4E00F222AD /* Types.swift */,
+				40B9460D29FADD9F00336F17 /* WaitAnimation.swift */,
+				4020F24629344FDC00F222AD /* Image Resizing.swift */,
+				40B9460A29FADD7F00336F17 /* CGSize+.swift */,
+				40B9461429FAE50B00336F17 /* Task+.swift */,
+				40AF0ECF29FDA5440022C432 /* Shapes.swift */,
+				409485D829FEF50C0047CEE5 /* EnvironmentValues+windowSize.swift */,
+				409485DB29FEF53F0047CEE5 /* SizePreferenceKey.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4046ED6D28AA1B2400A63124 = {
+			isa = PBXGroup;
+			children = (
+				4084D0E1292A757D006A6DFA /* Shared */,
+				4046ED7828AA1B2400A63124 /* Carousel-MacOS */,
+				4084D09D2929E7F7006A6DFA /* Carousel-iOS */,
+				4046ED7728AA1B2400A63124 /* Products */,
+				40D5B4BA29347119009D43A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4046ED7728AA1B2400A63124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4046ED7628AA1B2400A63124 /* Carousel-MacOS.app */,
+				4084D09C2929E7F7006A6DFA /* Carousel-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4046ED7828AA1B2400A63124 /* Carousel-MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				4046ED7928AA1B2400A63124 /* Carousel_MacOSApp.swift */,
+				4046ED8228AA1B2600A63124 /* Carousel.entitlements */,
+				4046ED7F28AA1B2600A63124 /* Preview Content */,
+			);
+			path = "Carousel-MacOS";
+			sourceTree = "<group>";
+		};
+		4046ED7F28AA1B2600A63124 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4046ED8028AA1B2600A63124 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4084D09D2929E7F7006A6DFA /* Carousel-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				409485E429FF2A8C0047CEE5 /* Info.plist */,
+				4084D09E2929E7F7006A6DFA /* Carousel_iOSApp.swift */,
+				4084D0A42929E7F9006A6DFA /* Preview Content */,
+			);
+			path = "Carousel-iOS";
+			sourceTree = "<group>";
+		};
+		4084D0A42929E7F9006A6DFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4084D0A52929E7F9006A6DFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4084D0E1292A757D006A6DFA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4020F23E29344DE900F222AD /* Views */,
+				40B9460629FACEB400336F17 /* Modal */,
+				4020F23D29344D7500F222AD /* Model */,
+				4020F24529344FC900F222AD /* Utils */,
+				4020F23129344C3200F222AD /* Conf.swift */,
+				4084D0A22929E7F9006A6DFA /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		40AF0EDB29FE248F0022C432 /* ModalTransitionParams */ = {
+			isa = PBXGroup;
+			children = (
+				40AF0ED829FE0ECC0022C432 /* ModalTransitionParams.swift */,
+				40AF0EDC29FE24A40022C432 /* CarouselModalTransitionParams.swift */,
+				40AF0EDF29FE24BB0022C432 /* FavoritesModalTransitionParams.swift */,
+			);
+			path = ModalTransitionParams;
+			sourceTree = "<group>";
+		};
+		40B9460629FACEB400336F17 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				40AF0EDB29FE248F0022C432 /* ModalTransitionParams */,
+				40AF0E8329FB03D10022C432 /* ModalView.swift */,
+				40AF0ED529FDFD0C0022C432 /* ModalViewModel.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		40B9461029FAE46200336F17 /* FavoritesView */ = {
+			isa = PBXGroup;
+			children = (
+				40B9461A29FAE93600336F17 /* FavoritesView.swift */,
+				40AF0ED229FDBB960022C432 /* FavoriteCardView.swift */,
+				40B9461129FAE47300336F17 /* FavoritesViewModel.swift */,
+			);
+			path = FavoritesView;
+			sourceTree = "<group>";
+		};
+		40D5B4A329345B57009D43A2 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				4020F23F29344E5D00F222AD /* CardView.swift */,
+				4020F24229344F8C00F222AD /* CardTitleView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		40D5B4A429345B6F009D43A2 /* KungsledenView */ = {
+			isa = PBXGroup;
+			children = (
+				4046ED7B28AA1B2400A63124 /* KungsledenView.swift */,
+				4020F22E29344BC200F222AD /* KungsledenViewModel.swift */,
+			);
+			path = KungsledenView;
+			sourceTree = "<group>";
+		};
+		40D5B4BA29347119009D43A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4046ED7528AA1B2400A63124 /* Carousel-MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4046ED8528AA1B2600A63124 /* Build configuration list for PBXNativeTarget "Carousel-MacOS" */;
+			buildPhases = (
+				4046ED7228AA1B2400A63124 /* Sources */,
+				4046ED7328AA1B2400A63124 /* Frameworks */,
+				4046ED7428AA1B2400A63124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carousel-MacOS";
+			packageProductDependencies = (
+				409485E229FF2A820047CEE5 /* Carousel */,
+			);
+			productName = CarouselMy01;
+			productReference = 4046ED7628AA1B2400A63124 /* Carousel-MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4084D09B2929E7F7006A6DFA /* Carousel-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4084D0A72929E7F9006A6DFA /* Build configuration list for PBXNativeTarget "Carousel-iOS" */;
+			buildPhases = (
+				4084D0982929E7F7006A6DFA /* Sources */,
+				4084D0992929E7F7006A6DFA /* Frameworks */,
+				4084D09A2929E7F7006A6DFA /* Resources */,
+				4084D0E0292A74E9006A6DFA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E6EB5E29DC8816009737A3 /* PBXTargetDependency */,
+			);
+			name = "Carousel-iOS";
+			packageProductDependencies = (
+				409485E529FF2A960047CEE5 /* Carousel */,
+			);
+			productName = "Carousel-iOS";
+			productReference = 4084D09C2929E7F7006A6DFA /* Carousel-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4046ED6E28AA1B2400A63124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4046ED7528AA1B2400A63124 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4084D09B2929E7F7006A6DFA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4046ED7128AA1B2400A63124 /* Build configuration list for PBXProject "CarouselDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4046ED6D28AA1B2400A63124;
+			packageReferences = (
+				409485E129FF2A820047CEE5 /* XCRemoteSwiftPackageReference "Carousel" */,
+			);
+			productRefGroup = 4046ED7728AA1B2400A63124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4046ED7528AA1B2400A63124 /* Carousel-MacOS */,
+				4084D09B2929E7F7006A6DFA /* Carousel-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4046ED7428AA1B2400A63124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4084D0E7292A806E006A6DFA /* Assets.xcassets in Resources */,
+				4046ED8128AA1B2600A63124 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4084D09A2929E7F7006A6DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4084D0A62929E7F9006A6DFA /* Preview Assets.xcassets in Resources */,
+				4084D0A32929E7F9006A6DFA /* Assets.xcassets in Resources */,
+				40E6EB5C29DC8816009737A3 /* Carousel-MacOS.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4046ED7228AA1B2400A63124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AF0ECD29FDA4140022C432 /* ShapeGeo.swift in Sources */,
+				40AF0E8429FB03D10022C432 /* ModalView.swift in Sources */,
+				40AF0ED629FDFD0C0022C432 /* ModalViewModel.swift in Sources */,
+				40B9461B29FAE93600336F17 /* FavoritesView.swift in Sources */,
+				40AF0E8729FB04740022C432 /* BlurView.swift in Sources */,
+				40B9461529FAE50B00336F17 /* Task+.swift in Sources */,
+				4020F22F29344BC200F222AD /* KungsledenViewModel.swift in Sources */,
+				40AF0E8A29FB049B0022C432 /* StarView.swift in Sources */,
+				4020F24329344F8C00F222AD /* CardTitleView.swift in Sources */,
+				409485DC29FEF53F0047CEE5 /* SizePreferenceKey.swift in Sources */,
+				4020F24029344E5D00F222AD /* CardView.swift in Sources */,
+				4046ED7C28AA1B2400A63124 /* KungsledenView.swift in Sources */,
+				4020F23829344D2D00F222AD /* Card.swift in Sources */,
+				40AF0ED329FDBB960022C432 /* FavoriteCardView.swift in Sources */,
+				4020F23B29344D4E00F222AD /* Types.swift in Sources */,
+				4020F23229344C3200F222AD /* Conf.swift in Sources */,
+				40AF0EE029FE24BB0022C432 /* FavoritesModalTransitionParams.swift in Sources */,
+				409485D929FEF50C0047CEE5 /* EnvironmentValues+windowSize.swift in Sources */,
+				40B9461229FAE47300336F17 /* FavoritesViewModel.swift in Sources */,
+				4020F23529344D0700F222AD /* PhotoRepository.swift in Sources */,
+				40B9461829FAE83200336F17 /* TitleView.swift in Sources */,
+				40B9460B29FADD7F00336F17 /* CGSize+.swift in Sources */,
+				409485DF29FF1CC10047CEE5 /* CloseButtonView.swift in Sources */,
+				4020F24729344FDC00F222AD /* Image Resizing.swift in Sources */,
+				40AF0ED029FDA5440022C432 /* Shapes.swift in Sources */,
+				40AF0ED929FE0ECC0022C432 /* ModalTransitionParams.swift in Sources */,
+				40AF0EDD29FE24A40022C432 /* CarouselModalTransitionParams.swift in Sources */,
+				40B9460E29FADD9F00336F17 /* WaitAnimation.swift in Sources */,
+				4046ED7A28AA1B2400A63124 /* Carousel_MacOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4084D0982929E7F7006A6DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40AF0ECE29FDA4140022C432 /* ShapeGeo.swift in Sources */,
+				40AF0E8529FB03D10022C432 /* ModalView.swift in Sources */,
+				40AF0ED729FDFD0C0022C432 /* ModalViewModel.swift in Sources */,
+				40B9461C29FAE93600336F17 /* FavoritesView.swift in Sources */,
+				40AF0E8829FB04740022C432 /* BlurView.swift in Sources */,
+				40B9461629FAE50B00336F17 /* Task+.swift in Sources */,
+				4020F23029344BC200F222AD /* KungsledenViewModel.swift in Sources */,
+				40AF0E8B29FB049B0022C432 /* StarView.swift in Sources */,
+				4020F24429344F8C00F222AD /* CardTitleView.swift in Sources */,
+				409485DD29FEF53F0047CEE5 /* SizePreferenceKey.swift in Sources */,
+				4020F24129344E5D00F222AD /* CardView.swift in Sources */,
+				4020F23929344D2D00F222AD /* Card.swift in Sources */,
+				4020F23C29344D4E00F222AD /* Types.swift in Sources */,
+				40AF0ED429FDBB960022C432 /* FavoriteCardView.swift in Sources */,
+				4084D134292C2EF9006A6DFA /* KungsledenView.swift in Sources */,
+				4020F23329344C3200F222AD /* Conf.swift in Sources */,
+				40AF0EE129FE24BB0022C432 /* FavoritesModalTransitionParams.swift in Sources */,
+				409485DA29FEF50C0047CEE5 /* EnvironmentValues+windowSize.swift in Sources */,
+				40B9461329FAE47400336F17 /* FavoritesViewModel.swift in Sources */,
+				4020F23629344D0700F222AD /* PhotoRepository.swift in Sources */,
+				40B9461929FAE83200336F17 /* TitleView.swift in Sources */,
+				40B9460C29FADD7F00336F17 /* CGSize+.swift in Sources */,
+				409485E029FF1CC10047CEE5 /* CloseButtonView.swift in Sources */,
+				4020F24829344FDC00F222AD /* Image Resizing.swift in Sources */,
+				40AF0ED129FDA5440022C432 /* Shapes.swift in Sources */,
+				40AF0EDA29FE0ECC0022C432 /* ModalTransitionParams.swift in Sources */,
+				40AF0EDE29FE24A40022C432 /* CarouselModalTransitionParams.swift in Sources */,
+				40B9460F29FADD9F00336F17 /* WaitAnimation.swift in Sources */,
+				4084D09F2929E7F7006A6DFA /* Carousel_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40E6EB5E29DC8816009737A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4046ED7528AA1B2400A63124 /* Carousel-MacOS */;
+			targetProxy = 40E6EB5D29DC8816009737A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4046ED8328AA1B2600A63124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4046ED8428AA1B2600A63124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4046ED8628AA1B2600A63124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Carousel-MacOS/Carousel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Carousel-MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = PE3M477MG2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irizen.Carousel-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4046ED8728AA1B2600A63124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Carousel-MacOS/Carousel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Carousel-MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = PE3M477MG2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irizen.Carousel-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4084D0A82929E7F9006A6DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Carousel-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = PE3M477MG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Carousel-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irizen.Carousel-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4084D0A92929E7F9006A6DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Carousel-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = PE3M477MG2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Carousel-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irizen.Carousel-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4046ED7128AA1B2400A63124 /* Build configuration list for PBXProject "CarouselDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4046ED8328AA1B2600A63124 /* Debug */,
+				4046ED8428AA1B2600A63124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4046ED8528AA1B2600A63124 /* Build configuration list for PBXNativeTarget "Carousel-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4046ED8628AA1B2600A63124 /* Debug */,
+				4046ED8728AA1B2600A63124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4084D0A72929E7F9006A6DFA /* Build configuration list for PBXNativeTarget "Carousel-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4084D0A82929E7F9006A6DFA /* Debug */,
+				4084D0A92929E7F9006A6DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		409485E129FF2A820047CEE5 /* XCRemoteSwiftPackageReference "Carousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/serhiybutz/Carousel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		409485E229FF2A820047CEE5 /* Carousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 409485E129FF2A820047CEE5 /* XCRemoteSwiftPackageReference "Carousel" */;
+			productName = Carousel;
+		};
+		409485E529FF2A960047CEE5 /* Carousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 409485E129FF2A820047CEE5 /* XCRemoteSwiftPackageReference "Carousel" */;
+			productName = Carousel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4046ED6E28AA1B2400A63124 /* Project object */;
+}
